@@ -1,0 +1,41 @@
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import Utils.DBConnection;
+
+/**
+ * Servlet implementation class DeleteCourseServlet
+ */
+@WebServlet("/DeleteCourseServlet")
+public class DeleteCourseServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	/*protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+	}*/
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		try {
+	       
+
+			 Connection connection=DBConnection.getConnection();
+			 String id= request.getParameter("id");
+			 Statement st=connection.createStatement();
+			 String sql = "delete from coursemain where CourseId ='"+ id+"'";
+		     st.executeUpdate(sql);
+		     request.getRequestDispatcher("CourseUpload.jsp").forward(request, response);
+			
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+	}
+
+}

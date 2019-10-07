@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Tut_Project/WebContent/elearningfolder1&apos; to &apos;css&apos;" description="Rename resource &apos;elearningfolder1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/elearningfolder1" name="css" stamp="1568354982111" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Tut_Project/WebContent/elearningprojectfolders&apos; to &apos;htmlpages&apos;" description="Rename resource &apos;elearningprojectfolders&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/elearningprojectfolders" name="htmlpages" stamp="1568355000063" updateReferences="true"/>
+</session>

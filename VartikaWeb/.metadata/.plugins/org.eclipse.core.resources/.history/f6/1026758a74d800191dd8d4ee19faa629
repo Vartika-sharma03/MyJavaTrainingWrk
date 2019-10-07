@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html >
+
+   <head>
+      <title>FORM</title>
+   </head>
+	
+   <body >
+      <form action="MyFormServlet" method="post" >
+         First name: <input type = "text" name = "first_name" />
+         <br>
+         Last name: <input type = "text" name = "last_name" />
+          <br>
+         rollNo: <input type = "text" name = "rollNo" />
+          <br>
+        address: <input type = "text" name = "address" />
+        <br>
+<button type="button">Register</button>
+      </form>
+   </body>
+	
+</html>

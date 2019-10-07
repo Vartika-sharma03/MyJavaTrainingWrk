@@ -1,0 +1,33 @@
+package ControllerServlets;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.mysql.cj.jdbc.Blob;
+
+/**
+ * Servlet implementation class tempServlet
+ */
+@WebServlet("/tempServlet")
+public class tempServlet extends HttpServlet {
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stubBlob b = file.getBlob();
+	/*	File file = (File) 
+		Blob b = file.getBlob(4);
+		int len = 0;
+		InputStream is = b.getBinaryStream();
+		long length = b.length();
+		byte[] x = new byte[10240];*/
+
+		doGet(request, response);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;log4j.xml&apos; to &apos;com.dbc&apos;" description="Move &apos;log4j.xml&apos; to &apos;com.dbc&apos;" destination="/com.dbc" element1="/Formproject/src/log4j.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1568714166720" updateReferences="true"/>
+</session>

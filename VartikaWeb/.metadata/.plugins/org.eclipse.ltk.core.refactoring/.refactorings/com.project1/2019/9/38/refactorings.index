@@ -1,0 +1,13 @@
+1568612516359	Move 'Resources' to 'src'
+1568613185694	Encapsulate field 'bookname'
+1568613190664	Encapsulate field 'bookprice'
+1568614605629	Delete element
+1568615579244	Move 'Resources' to 'main'
+1568615623460	Rename resource 'percistance.xml'
+1568615712980	Rename resource 'Resources'
+1568616594210	Delete element
+1568616633226	Rename resource 'persistence.xml'
+1568616705921	Rename resource 'Persistence.xml'
+1568617032966	Rename field 'boorice'
+1568618081017	Delete element
+1568625106459	Copy folder
